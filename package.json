@@ -1,0 +1,20 @@
+{
+  "name": "layout-workshop",
+  "version": "1.0.0",
+  "description": "layout-workshop task of rolling-scopes-school",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "live-server": "^1.2.0",
+    "livejs": "^0.1.10"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "grunt-reload": "^0.2.0"
+  }
+}

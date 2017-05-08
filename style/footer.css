@@ -1,0 +1,292 @@
+p span:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+hr{
+  border-width: 0.3px;
+  border-color:  #cccccc;
+  border-style: solid;
+  opacity: 0.3;
+  width: 358px;
+}
+
+
+.footer{
+    position: relative;
+    height: 412px;
+    width: 1638px;
+    /*left:0;*/
+    top:5px;
+    background: #212429;
+}
+.footer-container{
+    height: 371px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:59.5px 54px;
+}
+
+
+
+.footer-item-title{
+  display:flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+h3.footer-item-title-text:hover{
+  cursor:pointer;
+  color: #aaa;
+}
+.footer-item-content{
+  display:flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.footer-item h3{
+  font-family: Montserrat-SemiBold;
+  color:  #f7f7f7;
+  font-size: 15.43px;
+  line-height: 28px;
+  text-align: left;
+  margin: 0px;
+  margin-top:-8px;
+  margin-left:1px;
+  letter-spacing: 1.30px;
+  word-spacing: 0px;
+}
+
+.footer-item-content p{
+  font-family: Hind-Regular;
+  color:  #f9f9fb;
+  font-size: 16.1px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  margin: 4px 0px;
+  letter-spacing: 0.96px;
+}
+
+
+.footer-item{
+  display:flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.footer-item--about-blog{
+  width: 361px;
+  height: 252px;
+}
+.footer-item--latest-tweets{
+  width: 361px;
+  height: 237px;
+}
+.footer-item--instagram{
+  width: 360px;
+  height: 250px;
+}
+.footer-item--latest-comment{
+  width: 359px;
+  height: 251px;
+}
+
+.footer-messages{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:200px;
+}
+.footer-message p{
+  font-size: 15.1px;
+  line-height: 27px;
+}
+
+
+
+.footer-messages .footer-message:nth-of-type(1){
+  margin-top:-7.2px;
+}
+.footer-messages .footer-message:nth-of-type(2){
+  margin-bottom:-7.2px;
+}
+.footer-item-content .footer-message p:nth-of-type(1){
+  margin-bottom:5px;
+}
+
+.footer-item-content .footer-message p{
+  margin:0px;
+}
+
+.footer-follow-figure{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: -1.5px;
+  margin-bottom: -2px;
+}
+
+.footer-follow-figure div{
+  background: #f9f9fb;
+  width: 119px;
+  height: 98px;
+  margin-bottom:2px;
+}
+
+.twitter-items{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis:192px;
+}
+.twitter-item{
+  height: 83px;
+  display: flex;
+  position:relative;
+}
+.twitter-item:hover{
+  cursor: pointer;
+  color:black;
+}
+.twitter-item:hover p, :before{
+  color: gray;;
+}
+.twitter-item p:hover{
+  cursor:pointer;
+
+}
+.twitter-item p{
+  padding-left: 20px;
+  margin:0;
+}
+.twitter-item p::before{
+  font-family: FontAwesome;
+  content: '\f099';
+  color: #fff;
+  position:absolute;
+  left:-2px;
+  top:0px;
+  font-size:14px;
+}
+.twitter-item div p:nth-of-type(1){
+  font-size: 14.3px;
+  letter-spacing: 1.35px;
+  margin-bottom: 6px;
+}
+p.extra-wrap{
+  letter-spacing: 0.92px;
+}
+.footer-about-rectangle{
+  background: #3a3c49;
+  width: 361px;
+  height: 147px;
+  position:relative;
+}
+
+.footer-about-rectangle img{
+  position: absolute;
+  right:15px;
+  bottom:13px;
+
+}
+
+
+
+
+.footer-copyright{
+    height:41px;
+    width:100%;
+    background: #17191c;
+    display: flex;
+}
+.footer-copyright-text{
+    margin: auto;
+    color: white;
+    font-size: 13.9px;
+    word-spacing: 0.9px;
+    letter-spacing: 1.319px;
+    font-family: Hind-Light;
+    opacity: 0.6;
+}
+
+@font-face {
+  font-family: Hind-Bold;
+  src:url('fonts/Hind-Bold.ttf');
+}
+
+@font-face {
+  font-family: Hind-Light;
+  src:url('fonts/Hind-Light.ttf');
+}
+
+@font-face {
+  font-family: Hind-Medium;
+  src:url('fonts/Hind-Medium.ttf');
+}
+
+@font-face {
+  font-family: Hind-Regular;
+  src:url('fonts/Hind-Regular.ttf');
+}
+
+@font-face {
+  font-family: Hind-SemiBold;
+  src:url('fonts/Hind-SemiBold.ttf');
+}
+
+
+
+
+
+@font-face {
+  font-family: Montserrat-Thin;
+  src:url('./fonts/Montserrat-Thin.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src:url('./fonts/Montserrat-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src:url('./fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src:url('./fonts/Montserrat-Medium.ttf');
+}
+
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src:url('./fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src:url('./fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src:url('./fonts/Montserrat-ExtraBold.ttf');
+}
+
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src:url('./fonts/Montserrat-Regular.ttf');
+}
+
+
+
+@font-face {
+  font-family: Montserrat-Black;
+  src:url('./fonts/Montserrat-Black.ttf');
+}
